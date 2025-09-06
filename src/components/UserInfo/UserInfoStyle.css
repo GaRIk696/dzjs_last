@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+}
+
+.user-list {
+    width: 30%;
+    padding: 10px;
+}
+
+.user-button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-button.active {
+    background-color: #ffd562;
+    color: rgb(192, 104, 104);
+}
+
+.post-list {
+    width: 70%;
+    padding: 10px;
+}
+
+.post-card {
+    border: 1px solid #1a0303;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.post-body {
+    font-size: 14px;
+    color: #562b2b;
+}
